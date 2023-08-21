@@ -1,7 +1,7 @@
 body
 {
     background: rgba(59, 59, 59, 0.356);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     max-width: 900px;
     margin: auto;
 }
@@ -61,3 +61,4 @@ a{
 {
     text-decoration: none;
 }
+.content_podex{padding: 1rem;}
