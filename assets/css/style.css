@@ -5,6 +5,9 @@ body
     max-width: 900px;
     margin: auto;
 }
+.cabecalho{
+    padding: 1rem;
+}
 .photo
 {
     border: 1px solid;
@@ -13,6 +16,9 @@ body
 #title, .subtitle, .post_title
 {
     color: rgb(50, 50, 50);
+}
+.subtitle{
+    padding: 1rem;
 }
 #title
 {
@@ -45,6 +51,7 @@ a{
     text-transform: capitalize;
     text-align: justify;
     color: #505050;
+    
 }
 .post_image
 {
@@ -61,4 +68,22 @@ a{
 {
     text-decoration: none;
 }
-.content_podex{padding: 1rem;}
+.content_podex{
+    padding: 1rem;
+    
+}
+.content_list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+.content_list li{
+    color: #fff;
+    margin: .5rem;
+    padding: 2rem .5rem;
+    background-color: #14a06f;
+    border-radius: .5rem;
+    height: 100px;
+}
