@@ -44,14 +44,14 @@
     </section>
     <section class="content_podex">
         <h1>Pokedex</h1>
-        <ol class="content_list">
-            <li>bombasouro</li>
-            <li>sectosuaro</li>
-            <li>cocordsauro</li>
-            <li>bombasouro</li>
-            <li>sectosuaro</li>
-            <li>cocordsauro</li>
+        <ol id="pokemonList" class="content_list">
+            
         </ol>
+        
+        <div class="pagination">
+            <button id="loadMoreButton" type="button"></button>
+        </div>
+
     </section>
 
     <footer>
@@ -67,6 +67,8 @@
             </li>
         </ul>
     </footer>
+    <script src="assets/js/pokemon-model.js"></script>
+    <script src="assets/js/pokemonApi.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
