@@ -4,7 +4,7 @@
 }
 body
 {
-    background: rgba(59, 59, 59, 0.356);
+    background: rgba(59, 59, 59, 0.109);
     max-width: 900px;
     margin: auto;
 }
@@ -21,6 +21,7 @@ body
     color: rgb(50, 50, 50);
 }
 .subtitle{
+    text-align: center;
     padding: 1rem;
 }
 #title
@@ -28,8 +29,17 @@ body
     font-size: 40px;
     text-transform: uppercase ;
 }
+.text{
+    font-family: italic;
+    font-size: 18px;
+    padding: 2.5rem;
+    border: 1px solid #000;
+    background: #fff;
+    text-align: center;
+}
 a{
-    text-decoration: none;
+
+    text-decoration:none;
     color: #505050;
 }
 .post_title 
@@ -43,18 +53,17 @@ a{
 {
     background: #fff;
     padding: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.521);
+    border: 1px solid rgba(0, 0, 0, 0.521);
     margin: 10px;
-    border-radius: 3px;
 }
 .post_content
 {
+    color: #000;
     margin: 0;
     margin-bottom: 10px;
-    text-transform: capitalize;
     text-align: justify;
-    color: #505050;
-    
+    font-family: Times New Roman Arial ;
+    font-size: 16px;
 }
 .post_image
 {
@@ -63,21 +72,47 @@ a{
 }
 .content_link
 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 0;
-    padding-left: 15px;
+    margin: 10px;
+    margin-right: -10px;
     list-style-type: none;
+}
+.content_link li a:hover
+{   
+    font-size:large;
+    color: #a8b720;
+}
+
+.hr{
+    width: 250px;
 }
 .content_link li a 
 {
+    color: #000;
     text-decoration: none;
 }
+.content_link li a span{
+    display: flex;
+    justify-content: space-between;
+}
+.Copyright{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
 /*aki inicia a pokedex*/
 
 .content_podex{
     padding: 1rem;
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.521);
-    margin: 10px;
+    margin: 0;
     height: auto;
     width: 100vw;
 }
@@ -151,7 +186,7 @@ a{
 .pokemon {
     display: flex;
     flex-direction: column;
-    margin: .5rem;
+    margin: .3rem;
     padding: 1rem;
     border-radius: 1rem;
 }
